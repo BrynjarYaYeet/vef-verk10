@@ -1,4 +1,4 @@
-### Verkefni 10
+# Verkefni 10
 
 Er að nota React app og canvas API í þessu verkefni
 
