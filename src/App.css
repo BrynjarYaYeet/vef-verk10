@@ -4,16 +4,15 @@
 }
 
 @keyframes fade-anim {
-  0%{
+  0% {
     opacity: 0;
     transform: translateY(-50px) scale(0);
   }
-  100%{
+  100% {
     opacity: 1;
     transform: translateY(0px) scale(1);
   }
 }
-
 
 .App-header {
   min-height: 20%;
@@ -27,15 +26,16 @@
   animation: fade-anim 1s;
 }
 
-.canvas{
-  height: 480px;
-  max-width: 720px;
-  margin-top: 2rem;
-  border-image: linear-gradient(to right, aquamarine, red) 30;
-  border-width: 4px;
-  border-style: solid;
-
-  background-color: lightgray;
+.App-header-h1:hover {
+  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
-
+.App-header-p:hover {
+  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
