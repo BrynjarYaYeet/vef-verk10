@@ -2,6 +2,8 @@
 
 Er að nota React app og canvas API í þessu verkefni
 
+Link: https://elaborate-pika-df9a7d.netlify.app
+
 ## React
 
 React er sett upp með index.html skrá sem inniheldur root element sem er síðan notað til að byggja appið inní.
